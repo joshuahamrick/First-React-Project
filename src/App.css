@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.header {
+    margin-top: 30px;
+    font-size: 50px;
+}
+.post {
+    width: 40%;
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 60px;
+    font-size: 35px;
+}
+.btn{
+    padding: 5px;
+    background-color: white;
+    border: rgb(149, 144, 238) 2px solid;
+    border-radius: 3px;
+}
+
+.likes {
+    display: flex;
+    justify-content: flex-end;
+}
